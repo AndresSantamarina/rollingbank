@@ -1,0 +1,14 @@
+#carouselBanner .carousel-inner{
+    height: 60vh;
+    }
+    #carouselBanner .carousel-item{
+    height: 100%;
+    position: relative;
+    }
+    #carouselBanner img{
+        min-height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
