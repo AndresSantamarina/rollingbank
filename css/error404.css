@@ -1,4 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Arvo&family=Barlow:wght@500&family=Heebo:wght@200;300&family=Montserrat:wght@200&family=Nunito:ital,wght@0,400;0,700;1,300&family=Pacifico&family=Poppins:wght@400;500&family=Roboto+Mono:wght@300&family=Signika:wght@700&family=Work+Sans:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+
+h1{
+    font-size: 70px;
+    color: peru;
+    font-family: 'Barlow', sans-serif;
+    animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+h2{
+    font-size: 40px;
+    color: brown;
+    font-family: 'Barlow', sans-serif;
+}
+
+#bgError{
+    background: white;
 }
