@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
+}
+.tituloFooter {
+  font-family: "Anton", sans-serif;
+  text-decoration: none;
+}
+footer .bi {
+  font-size: 15px;
+}
