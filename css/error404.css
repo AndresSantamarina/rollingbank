@@ -46,7 +46,7 @@ p{
       width: 75%;
     }
     h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     h2{
         font-size: 25px;
@@ -61,6 +61,8 @@ p{
     #imgError404 {
       width: 60%;
     }
+
+   
   }
 
   @media all and (min-width: 991px) {
