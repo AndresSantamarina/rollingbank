@@ -1,14 +1,32 @@
-#carouselBanner .carousel-inner{
-    height: 60vh;
-    }
-    #carouselBanner .carousel-item{
-    height: 100%;
-    position: relative;
-    }
-    #carouselBanner img{
-        min-height: 100%;
-        object-fit: cover;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap");
+
+#carouselBanner .carousel-inner {
+  height: 60vh;
+}
+#carouselBanner .carousel-item {
+  height: 100%;
+  position: relative;
+}
+#carouselBanner img {
+  min-height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tituloPrecios{
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.iconApertura{
+    width: 10%;
+}
+.spanPrecio{
+    width: 12%;
+}
+.textoApertura{
+    width: 78%;
+}
