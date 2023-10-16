@@ -15,18 +15,22 @@
   transform: translateY(-50%);
 }
 
-.tituloPrecios{
+.tituloPrecios {
   font-family: "Fira Sans", sans-serif;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 40px;
 }
-
-.iconApertura{
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .tablasSeguridad {
+    margin-bottom: 200px;
+  }
+  .iconApertura {
     width: 10%;
-}
-.spanPrecio{
-    width: 12%;
-}
-.textoApertura{
-    width: 78%;
+  }
+  .textoApertura {
+    width: 75%;
+  }
+  .spanPreciobot {
+    width: 14%;
+  }
 }
