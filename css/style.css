@@ -20,10 +20,28 @@
   font-weight: 900;
   font-size: 40px;
 }
-@media all and (min-width: 768px) and (max-width: 991px) {
-  .tablasSeguridad {
-    margin-bottom: 200px;
+@media all and (min-width: 992px) {
+  .tituloPrecios {
+    font-size: 50px;
   }
+  .iconApertura {
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 15px;
+  }
+  .textoApertura {
+    width: 75%;
+  }
+  .spanPreciobot {
+    width: 14%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
   .iconApertura {
     width: 10%;
   }
@@ -32,5 +50,15 @@
   }
   .spanPreciobot {
     width: 14%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .tablasSeguridad {
+    margin-bottom: 30px;
   }
 }
