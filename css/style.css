@@ -29,3 +29,7 @@ footer .bi {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.bannerQuienesSomos{
+  font-family: "Anton", sans-serif;
+}
