@@ -1,61 +1,61 @@
-.imgIphone{
-    width: 400px;
+.imgIphone {
+  width: 400px;
 }
 
-@media all and (min-width: 992px){
-    .logosFinal{
-        display: flex;
-        justify-content: center;
-    }
-    .logo1{
-        padding-right: 5px;
-        }
-        .logo2{
-        padding-left: 5px;    
-        }
-   
-}
-
-@media all and (min-width: 768px) and (max-width: 991px){
-    .seguridad1{
-        margin-right: 20px;
-    }
-    .tituloBannerAbajo{
-        font-size: 30px;
-    }
-    .logosFinal{
-        display: flex;
-        justify-content: center;
-    }
-    .logo1{
+@media all and (min-width: 992px) {
+  .logosFinal {
+    display: flex;
+    justify-content: center;
+  }
+  .logo1 {
     padding-right: 5px;
-    }
-    .logo2{
-    padding-left: 5px;    
-    }
-  
+  }
+  .logo2 {
+    padding-left: 5px;
+  }
 }
-@media all and (min-width: 576px) and (max-width: 767px){
-    .logo1{
-        padding-bottom: 5px;
-        }
-        .logo2{
-        padding-top: 5px;   
-        }
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .imgIphone {
+        width: 500px;
+      }
+  .seguridad1 {
+    margin-right: 20px;
+  }
+  .tituloBannerAbajo {
+    font-size: 30px;
+  }
+  .logosFinal {
+    display: flex;
+    justify-content: center;
+  }
+  .logo1 {
+    padding-right: 5px;
+  }
+  .logo2 {
+    padding-left: 5px;
+  }
 }
-@media all and (max-width:575px){
-    .imgIphone{
-        display: none;
-    }
-   .opcionesDeSeguridad{
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .logo1 {
+    padding-bottom: 5px;
+  }
+  .logo2 {
+    padding-top: 5px;
+  }
+}
+@media all and (max-width: 575px) {
+  .imgIphone {
+    display: none;
+  }
+  .opcionesDeSeguridad {
     text-align: center;
     padding-right: 40px;
-   }
-   .logo1{
+  }
+  .logo1 {
     padding-bottom: 5px;
-    }
-    .logo2{
-    padding-top: 5px;   
-    }
-
+  }
+  .logo2 {
+    padding-top: 5px;
+  }
 }
